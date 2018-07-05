@@ -1,0 +1,1 @@
+Drupal.locale = { 'pluralFormula': function ($n) { return Number(($n!=1)); }, 'strings': {"":{"All":"Todo(s)","This field is required.":"Este campo es obligatorio.","Hide":"Ocultar","Enabled":"Activado","Edit":"Editar","Add":"Agregar","Disabled":"Desactivado"}} };
