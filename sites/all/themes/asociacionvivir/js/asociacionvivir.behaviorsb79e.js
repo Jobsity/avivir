@@ -1,4 +1,3 @@
-(function ($) {
 
     /**
      * The recommended way for producing HTML markup through JavaScript is to write
@@ -10,10 +9,10 @@
      * In most cases, there is no good reason to NOT wrap your markup producing
      * JavaScript in a theme function.
      */
-    Drupal.theme.prototype.asociacionvivirExampleButton = function (path, title) {
+    /*Drupal.theme.prototype.asociacionvivirExampleButton = function (path, title) {
         // Create an anchor element with jQuery.
         return $('<a href="' + path + '" title="' + title + '">' + title + '</a>');
-    };
+    };*/
 
     /**
      * Behaviors are Drupal's way of applying JavaScript to a page. In short, the
@@ -38,7 +37,7 @@
      *   Drupal.settings directly you should use this because of potential
      *   modifications made by the Ajax callback that also produced 'context'.
      */
-    Drupal.behaviors.asociacionvivirExampleBehavior = {
+    /*Drupal.behaviors.asociacionvivirExampleBehavior = {
         attach: function (context, settings) {
             // By using the 'context' variable we make sure that our code only runs on
             // the relevant HTML. Furthermore, by using jQuery.once() we make sure that
@@ -55,7 +54,7 @@
                 $anchor.appendTo(this);
             });
         }
-    };
+    };*/
 
     $.fn.triangle = function (options) {
         var defaults = {
@@ -338,4 +337,4 @@
         });  
         init();   
     });
-})(jQuery);
+
