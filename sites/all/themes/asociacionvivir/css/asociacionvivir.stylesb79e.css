@@ -2441,4 +2441,9 @@ body {
       .pane-node-content .owl-controls .owl-buttons .owl-next {
         right: -40px !important; } }
 
+  .recaptcha-styles{
+    margin: 1rem;
+  }
+
+
 /*# sourceMappingURL=asociacionvivir.styles.css.map */
